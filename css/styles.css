@@ -33,7 +33,8 @@ body {
   margin: -1px;
 }
 
-/* -----------HEADER--------------- */
+/* -----------INDEX.HTML------------- */
+/* --------HEADER------- */
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -111,7 +112,6 @@ body {
 /* ------------BENEFITS-------------- */
 
 .benefits-item-titel {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -127,7 +127,6 @@ body {
 /* ------------OFFERS-------------- */
 
 .offers-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -141,7 +140,6 @@ body {
 }
 
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -204,4 +202,36 @@ body {
 .footer-address-link:hover,
 .footer-address-link:focus {
   color: var(--accent-color);
+}
+
+/* -----------PORTFOLIO.HTML------------- */
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--second-text-color);
+  background: var(--accent-color);
+}
+
+.portfolio-galery-titel {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-galery-text {
+  font-size: 16px;
+  line-height: 1.88px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
